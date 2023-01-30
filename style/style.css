@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+body{
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;;
+}
+
+ul {
+    margin: 0;
+  }
+  ul.dashed {
+    list-style-type: none;
+  }
+  ul.dashed > li {
+    text-indent: -5px;
+  }
+  ul.dashed > li:before {
+    content: "- ";
+    text-indent: -5px;
+  }
+
+#root{
+    height: 100%;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.55);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(175, 178, 183, 0.3);
+}
+
+header .block-name{
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header .block-name i{
+    padding-top: 20px;
+    font-size: 40px;
+}
+header .block-name h1{
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+}
+header .block-name h3{
+    color: rgb(99, 101, 104);
+    margin-top: .2rem;
+}
+
+header .block-info{
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: rgb(99, 101, 104);
+    text-align: right;
+}
+header .block-info p{
+    margin-top: 0;
+    margin-bottom: .6rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    
+}
+section > div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+section > div > p {
+    width: 12rem;
+    padding: 3rem;
+    color: rgb(99, 101, 104);
+
+    
+}
+section > div > div {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-grow: 2;
+    padding-top: 3rem;
+
+    
+}
+
+section > div > div span {
+    color: rgb(99, 101, 104);
+}
